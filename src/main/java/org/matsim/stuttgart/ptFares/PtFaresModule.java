@@ -17,10 +17,10 @@
  *                                                                         *
  * *********************************************************************** */
 
-package org.matsim.ptFares;
+package org.matsim.stuttgart.ptFares;
 
 import org.matsim.core.controler.AbstractModule;
-import org.matsim.ptFares.utils.FareZoneCalculator;
+import org.matsim.stuttgart.ptFares.utils.FareZoneCalculator;
 
 /**
  * @author dwedekind, gleich

@@ -1,4 +1,4 @@
-package org.matsim.ptFares;
+package org.matsim.stuttgart.ptFares;
 
 import com.google.inject.Inject;
 import org.apache.log4j.Logger;
@@ -13,9 +13,9 @@ import org.matsim.core.api.experimental.events.handler.VehicleArrivesAtFacilityE
 import org.matsim.core.config.groups.QSimConfigGroup;
 import org.matsim.core.controler.events.AfterMobsimEvent;
 import org.matsim.core.controler.listener.AfterMobsimListener;
-import org.matsim.ptFares.utils.FareZoneCalculator;
-import org.matsim.ptFares.utils.TransitRider;
-import org.matsim.ptFares.utils.TransitVehicle;
+import org.matsim.stuttgart.ptFares.utils.FareZoneCalculator;
+import org.matsim.stuttgart.ptFares.utils.TransitRider;
+import org.matsim.stuttgart.ptFares.utils.TransitVehicle;
 import org.matsim.vehicles.Vehicle;
 
 import java.util.*;

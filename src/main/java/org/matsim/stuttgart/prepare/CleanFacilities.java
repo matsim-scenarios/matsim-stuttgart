@@ -17,7 +17,7 @@
  *                                                                         *
  * *********************************************************************** */
 
-package org.matsim.prepare;
+package org.matsim.stuttgart.prepare;
 
 import org.apache.log4j.Logger;
 import org.matsim.api.core.v01.Scenario;
