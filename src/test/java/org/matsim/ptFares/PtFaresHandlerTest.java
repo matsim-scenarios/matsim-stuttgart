@@ -30,6 +30,9 @@ import org.matsim.core.gbl.Gbl;
 import org.matsim.core.scenario.ScenarioUtils;
 import org.matsim.pt.transitSchedule.api.TransitSchedule;
 import org.matsim.pt.transitSchedule.api.TransitStopFacility;
+import org.matsim.stuttgart.ptFares.PtFaresConfigGroup;
+import org.matsim.stuttgart.ptFares.PtFaresModule;
+import org.matsim.stuttgart.run.StuttgartRaptorIntermodalAccessEgress;
 
 import java.util.*;
 
@@ -103,7 +106,7 @@ public class PtFaresHandlerTest {
         controler.addOverridingModule(new AbstractModule() {
             @Override
             public void install() {
-                bind(RaptorIntermodalAccessEgress.class).to(org.matsim.run.StuttgartRaptorIntermodalAccessEgress.class);
+                bind(RaptorIntermodalAccessEgress.class).to(StuttgartRaptorIntermodalAccessEgress.class);
             }
         });
 
