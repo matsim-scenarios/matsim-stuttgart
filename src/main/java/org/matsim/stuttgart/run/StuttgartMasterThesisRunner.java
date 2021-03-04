@@ -435,7 +435,7 @@ public class StuttgartMasterThesisRunner {
     private static void setupSBBTransit(SBBTransitConfigGroup sbbTransit) {
         var modes = Set.of(TransportMode.train, "bus", "tram");
         sbbTransit.setDeterministicServiceModes(modes);
-        sbbTransit.setCreateLinkEventsInterval(10);
+        sbbTransit.setCreateLinkEventsInterval(1);
 
     }
 
