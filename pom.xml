@@ -21,6 +21,12 @@
             <groupId>org.matsim</groupId>
             <artifactId>matsim</artifactId>
             <version>${matsim.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>jogamp</groupId>
+                    <artifactId>jogamp</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <!--MATSim test infrastructure.  Not transitive.-->
