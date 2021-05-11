@@ -103,7 +103,7 @@ public class StuttgartMasterThesisRunner {
 
 
     public static Config prepareConfig(String [] args) {
-        log.info("StuttgartMasterThesisRunner - 27-04-2021 16:57");
+        log.info("StuttgartMasterThesisRunner - 11-05-2021 09:31");
         OutputDirectoryLogging.catchLogEntries();
 
         // -- LOAD CONFIG GROUP --
